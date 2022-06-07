@@ -4,7 +4,7 @@ function ExpenseDate(props) {
   const day = props.date.toLocaleString("en-US", { day: "2-digit" });
 
   return (
-    <div className="celendar">
+    <div className="celendar card">
       <div>{month}</div>
       <div>{year}</div>
       <div>{day}</div>
