@@ -1,5 +1,6 @@
 import "./App.css";
 import ExpenseGroup  from "./components/Expenses/ExpenseGroup";
+import NewExpense from "./components/NewExpense/NewExpense";
 import './components/UI/Card.css';
 
 
@@ -14,8 +15,7 @@ function App() {
   return (
     <>
       <div className="App-header">
-        <h2>Getting Started</h2>
-       
+        <NewExpense/>
         <ExpenseGroup items={expenses} />
 
       </div>
